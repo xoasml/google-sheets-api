@@ -65,7 +65,7 @@ public class SheetsQuickstart {
 
     public Sheets connSheets() throws IOException {
 
-        String APPLICATION_NAME = "Google Sheets API Java";
+        String APPLICATION_NAME = "   ";
         return new Sheets.Builder(HTTP_TRANSPORT, JSON_FACTORY, getCredentials())
                 .setApplicationName(APPLICATION_NAME)
                 .build();
